@@ -3,7 +3,12 @@
 // Update by running: python scripts/extract-wix-images.py --add "Item Name"
 
 export const itemImageMap = {
+  // Crystal Fragment - World Rotation Globe (Mount) - from blog post
   'Crystal Fragment': 'https://static.wixstatic.com/media/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_85/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg',
+  'World Rotation Globe': 'https://static.wixstatic.com/media/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_85/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg',
+  'Globe': 'https://static.wixstatic.com/media/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_85/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg',
+  'Globe Mount': 'https://static.wixstatic.com/media/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_85/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg',
+  'Craft Mount': 'https://static.wixstatic.com/media/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_85/9f8412_166e4068510c43ffbc2e368738a91fe7~mv2.jpg',
   
   // Love Badges & Rewards items
   'OPT': 'https://static.wixstatic.com/media/9f8412_62099dd52f1f467b9bdc02272aa370cb~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_85/9f8412_62099dd52f1f467b9bdc02272aa370cb~mv2.jpg',
