@@ -16,7 +16,6 @@ export const itemImageMap = {
   'Summer Happy Chair BK/WT': 'https://static.wixstatic.com/media/9f8412_10e74a058e3746fd84093e546715b83a~mv2.png/v1/fill/w_1000,h_785,al_c,q_90,usm_0.66_1.00_0.01/9f8412_10e74a058e3746fd84093e546715b83a~mv2.png',
   'Rocking Chair': 'https://static.wixstatic.com/media/9f8412_86ec785261a94e82b115073b0743f709~mv2.jpg/v1/fill/w_1000,h_632,al_c,q_85,usm_0.66_1.00_0.01/9f8412_86ec785261a94e82b115073b0743f709~mv2.jpg',
   'Demon Guitar BK/WT': 'https://static.wixstatic.com/media/9f8412_c407d0beacc547018abc2de877761e08~mv2.jpg/v1/fill/w_883,h_495,al_c,q_85/9f8412_c407d0beacc547018abc2de877761e08~mv2.jpg',
-  'Dream Umbrella BK': 'https://static.wixstatic.com/media/9f8412_59305385b1864908bdb95c51d8a10d74~mv2.png/v1/fill/w_1000,h_991,al_c,q_90,usm_0.66_1.00_0.01/9f8412_59305385b1864908bdb95c51d8a10d74~mv2.png',
   'Kitty Swing OPT': 'https://static.wixstatic.com/media/9f8412_61c81d2acab442dc877e2449ee89ae07~mv2.jpg/v1/fill/w_896,h_287,al_c,lg_1,q_80/9f8412_61c81d2acab442dc877e2449ee89ae07~mv2.jpg',
   'Silent Taste OPT': 'https://static.wixstatic.com/media/9f8412_a31dec9817f3462ba65515d9fec8e40c~mv2.jpg/v1/fill/w_812,h_172,al_c,lg_1,q_80/9f8412_a31dec9817f3462ba65515d9fec8e40c~mv2.jpg',
   'Crescent Bay': 'https://static.wixstatic.com/media/9f8412_62b7bbdf52f842af90744fd7963e86ae~mv2.jpg/v1/fill/w_768,h_610,al_c,lg_1,q_85/9f8412_62b7bbdf52f842af90744fd7963e86ae~mv2.jpg',
