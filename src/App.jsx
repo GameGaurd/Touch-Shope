@@ -116,7 +116,7 @@ function HomePage() {
     <>
       <header className="topbar">
         <div className="container nav-row">
-          <div className="brand">Liam Shoppee</div>
+          <div className="brand">🛍️ Liam Shoppee</div>
           <nav className="main-nav">
             <a href="#">Home</a>
             <a href="#items">Items</a>
@@ -248,7 +248,7 @@ function HomePage() {
       <footer className="site-footer">
         <div className="container footer-row">
           <div>
-            <strong>Liam Shoppee</strong>
+            <strong>🛍️ Liam Shoppee</strong>
             <p>Browse available Liam Shoppee items.</p>
           </div>
           <nav>
