@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: touch-4-games-catalog
+    env: node
+    plan: free
+    rootDir: .
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
