@@ -14,7 +14,7 @@ function normalizeText(value) {
 
 function makeImageDataUri(title, category) {
   const safeTitle = String(title ?? 'Item').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const safeCategory = String(category ?? 'Touch 4 Games').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const safeCategory = String(category ?? 'Liam Shoppee').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   const label = safeTitle.length > 22 ? `${safeTitle.slice(0, 22)}…` : safeTitle;
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620">
@@ -36,7 +36,7 @@ function makeImageDataUri(title, category) {
       <text x="400" y="250" text-anchor="middle" font-size="52" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#e2e8f0">${label}</text>
       <text x="400" y="310" text-anchor="middle" font-size="24" font-family="Segoe UI, Arial, sans-serif" fill="#a8b9ff" letter-spacing="4">${safeCategory.toUpperCase()}</text>
       <rect x="240" y="350" width="320" height="8" rx="4" fill="url(#g2)" opacity="0.8"/>
-      <text x="400" y="440" text-anchor="middle" font-size="26" font-family="Segoe UI, Arial, sans-serif" fill="#cbd5e1">Touch 4 Games</text>
+      <text x="400" y="440" text-anchor="middle" font-size="26" font-family="Segoe UI, Arial, sans-serif" fill="#cbd5e1">Liam Shoppee</text>
     </svg>
   `;
 
@@ -54,7 +54,7 @@ function parseInventory(raw) {
 export async function fetchCatalogData() {
   const response = await fetch(spreadsheetUrl);
   if (!response.ok) {
-    throw new Error('Unable to load Touch 4 Games catalog data.');
+    throw new Error('Unable to load Liam Shoppee catalog data.');
   }
 
   const csvText = await response.text();
@@ -113,7 +113,7 @@ export async function fetchCatalogData() {
         inStock: parseInventory(quantity),
         stock: Number.parseInt(quantity || '0', 10) || 0,
         rawStatus: 'Available',
-        description: `Touch 4 Games ${itemType || 'item'} item.`,
+        description: `Liam Shoppee ${itemType || 'item'} item.`,
         image: mappedImage || makeImageDataUri(itemName, itemType),
         rarity: '',
         available: parseInventory(quantity),

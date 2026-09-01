@@ -116,7 +116,7 @@ function HomePage() {
     <>
       <header className="topbar">
         <div className="container nav-row">
-          <div className="brand">Touch 4 Games</div>
+          <div className="brand">Liam Shoppee</div>
           <nav className="main-nav">
             <a href="#">Home</a>
             <a href="#items">Items</a>
@@ -132,7 +132,7 @@ function HomePage() {
       <main>
         <section className="hero container">
           <div>
-            <p className="eyebrow">Touch 4 Games Items</p>
+            <p className="eyebrow">Liam Shoppee Items</p>
             <h1>Browse our available in-game items</h1>
             <div className="hero-search">
               <input value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder="Search items..." />
@@ -248,8 +248,8 @@ function HomePage() {
       <footer className="site-footer">
         <div className="container footer-row">
           <div>
-            <strong>Touch 4 Games</strong>
-            <p>Browse available Touch 4 Games items.</p>
+            <strong>Liam Shoppee</strong>
+            <p>Browse available Liam Shoppee items.</p>
           </div>
           <nav>
             <a href="#">Home</a>
